@@ -14,17 +14,28 @@ function App() { //just a normal JS function
 
   return(
     <div className="app">
-        <div className="title-wrapper">
-          <div className="title-sidebar">
-          <p>Z</p><p>A</p><p>C</p><p>H</p><p>-</p>
-          <p>Y</p><p>A</p>
-          <p>H</p><p>N</p>
-          </div>
+      
+      <div className="app-wrapper">
+          
+        <div className="statement-wrapper">
+
+          
           <div className="statement">
-            <h1>I'm a computer scientist and engineer inspired by artificial intelligence 
-              and fueled by excitement for the unknown.</h1>
+            <h1>I'm Zach Yahn, a computer scientist and engineer inspired by artificial intelligence, 
+              the internet of things, and robotics.</h1>
           </div>
-          <div className="title-sidebar"></div>
+
+          <div className="statement-down-arrow">
+            <code>&#8595;</code>
+          </div>
+
+        </div>
+        
+        <div className="projects-wrapper">
+        </div>
+
+        <div className="about-me-wrapper">
+      
         </div>
         {/* <button onClick={increment}>Increment</button>
         <h1>{count}</h1>
@@ -32,6 +43,7 @@ function App() { //just a normal JS function
         <Tweet name="Zach" message="Grrr"/>
         <Tweet name="Peasant" message="I'm bad"/>
         <Tweet name="Test" message="123"/> */}
+        </div>
     </div>
   );
 }

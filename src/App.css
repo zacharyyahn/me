@@ -2,12 +2,24 @@
   min-height: 100vh;
   background: #283747;
   display: flex;
-  align-items: center;
 }
 
-.title-wrapper {
+.app-wrapper {
+  align-items: center;
+  grid-template-rows: 1fr 1fr 1fr
+}
+
+.projects-wrapper {
+  min-height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 16fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: white;
+}
+
+.about-me-wrapper {
+  min-height: 100vh;
+  display: grid;
+  background-color: lightblue;
 }
 
 .title-sidebar {
@@ -19,23 +31,38 @@
   background: #101010;
   height: 100vh;
   color: white;
-  font-size: 5vh;
+  font-size: 8vh;
   justify-content: stretch;
   vertical-align: center;
   text-align: center;
 }
 
-.statement::before {
-  content: "";
-
-  
-  display: block;
-  background-image: url("space-background.jpg");
+.statement-wrapper {
+  min-height: 100vh;
+  position: relative;
+  background-image: url("space-background3.jpg");
   background-size: cover;
   background-position: center;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
 
 .statement {
+  animation: fadeIn 2s;
+  border: 2px;
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  border-style: solid;
+  border-color: white;
   color: white;
   display: flex;
   flex-direction: row;
@@ -43,12 +70,33 @@
   justify-content: stretch;
   align-items: center;
   text-align: center;
-  background-image: url("space-background.jpg");
-  background-size: cover;
-  background-position: center;
-  backdrop-filter: blur(5px);
-
+  font-family: "Courier";
+  backdrop-filter: blur(2px); /*may want to change this blur later */
 }
+
+.statement-sidebar {
+  font-family: "Courier";
+  grid-column-start:1;
+  grid-column-end: 1;
+  font-size: 7vh;
+  display: grid;
+  color: white;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  text-align: center;
+  backdrop-filter: blur(1px);
+}
+
+.statement-down-arrow {
+  animation: fadeIn 10s;
+  font-size: 6vh;
+  grid-column-start: 4;
+  grid-row-start: 6;
+  text-align: center;
+  justify-content: bottom;
+  color: rgb(100, 120, 200);
+}
+
 
 .red {
   color: red;
