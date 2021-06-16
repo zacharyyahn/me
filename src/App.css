@@ -1,6 +1,6 @@
 .app {
   min-height: 100vh;
-  background: #283747;
+  background: white;
   display: flex;
 }
 
@@ -9,17 +9,15 @@
   grid-template-rows: 1fr 1fr 1fr
 }
 
-.projects-wrapper {
-  min-height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  background-color: white;
+h2 {
+  color: rgb(130, 40, 220)
 }
 
-.about-me-wrapper {
-  min-height: 100vh;
-  display: grid;
-  background-color: lightblue;
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .title-sidebar {
@@ -28,7 +26,7 @@
   grid-template-rows: repeat(9, 1fr);
   grid-gap: 1px;
   row-gap: 0px;
-  background: #101010;
+  background: white;
   height: 100vh;
   color: white;
   font-size: 8vh;
@@ -88,7 +86,7 @@
 }
 
 .statement-down-arrow {
-  animation: fadeIn 10s;
+  animation: fadeIn 6s;
   font-size: 6vh;
   grid-column-start: 4;
   grid-row-start: 6;
@@ -97,8 +95,74 @@
   color: rgb(100, 120, 200);
 }
 
+.about-me-wrapper {
+  min-height: 100vh;
+  display: grid;
+  background-color: white;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
 
-.red {
-  color: red;
-  font-size: 50px;
+.about-me-image {
+  grid-column-start: 7;
+  grid-column-end: 10;
+  grid-row-start: 2;
+  grid-row-end: 10;
+  background-image: url("me.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 5vh;
+  border: white;
+}
+
+.about-me-text {
+  font-size: 4vh;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 10;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-rows: repeat(20, 1fr);
+  grid-template-columns: repeat(11, 1fr);
+}
+
+.about-me-text-title {
+  border: white;
+  border-bottom: black;
+  border-style: solid;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 12;
+
+}
+
+.about-me-text-content {
+  grid-row-start: 5;
+  grid-row-end: 18;
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
+
+.about-me-github-image {
+  grid-row-start: 17;
+  grid-row-end: 20;
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+
+.about-me-linkedin-image {
+  grid-row-start: 17;
+  grid-row-end: 20;
+  grid-column-start: 7;
+  grid-column-end: 10;
+}
+
+.projects-wrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: lightblue;
 }
