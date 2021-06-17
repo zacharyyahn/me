@@ -74,6 +74,12 @@ function App() { //just a normal JS function
       
         </div>
         
+        <div className="skills-wrapper">
+          <div className="skills-border">
+            <div className="skills-diagram"></div>
+          </div>
+        </div>
+        
         <div className="projects-wrapper">
         </div>
 
