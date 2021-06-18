@@ -169,36 +169,115 @@ h2 {
   display: grid;
   grid-template-columns: repeat(30, 1fr);
   grid-template-rows: repeat(30, 1fr);
-  border: white;
+  /* border: white;
   border-bottom: black;
-  border-style: solid;
+  border-style: solid; */
 }
 
 .skills-border {
   grid-column-start: 2;
   grid-column-end: 30;
-  grid-row-start: 2;
+  grid-row-start: 1;
   grid-row-end: 30;
   display: grid;
   grid-template-columns: repeat(20, 1fr);
   grid-template-rows: repeat(20, 1fr);
   border: black;
   border-style: solid;
+  border-radius: 10px;
+  border-width: 1vh;
 }
 
 .skills-diagram {
   background-image: url("Complete Programming Languages.png");
   background-size: cover;
   background-position: center;
-  grid-column-start: 2;
-  grid-column-end: 14;
+  grid-column-start: 7;
+  grid-column-end: 19;
   grid-row-start: 1;
   grid-row-end: 21;
+  font-size: 4vh;
+}
+
+.skills-title {
+  font-size: 5vh;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 9;
+  grid-row-end: 13;
+  border: white;
+  border-bottom: black;
+  border-style: solid;
+  text-align: center;
+  justify-content: center;
 }
 
 .projects-wrapper {
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: repeat(30, 1fr);
   background-color: white;
 }
+
+.project-item-1 {
+  grid-column-start: 3;
+  grid-column-end: 11;
+  grid-row-start: 3;
+  grid-row-end: 15;
+  border: black solid 1vh;
+  background: url("CampusMap2.gif");
+  background-size: cover;
+  background-position: 60% 50%;
+}
+
+.project-item-2 {
+  grid-column-start: 12;
+  grid-column-end: 20;
+  grid-row-start: 3;
+  grid-row-end: 15;
+  border: black solid 1vh;
+  background: url("Deepfake2.gif");
+  background-size: cover; 
+}
+
+.project-item-3 {
+  grid-column-start: 21;
+  grid-column-end: 29;
+  grid-row-start: 3;
+  grid-row-end: 15;
+  border: black solid 1vh;
+  background: url("EKG.gif");
+  background-size: cover;
+}
+
+.project-item-4 {
+  grid-column-start: 3;
+  grid-column-end: 11;
+  grid-row-start: 17;
+  grid-row-end: 29;
+  border: black solid 1vh; 
+  background: url("Robot.gif");
+  background-size: cover;
+}
+
+.project-item-5 {
+  grid-column-start: 12;
+  grid-column-end: 20;
+  grid-row-start: 17;
+  grid-row-end: 29;
+  border: black solid 1vh;
+  background: url("NASA.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.project-item-6 {
+  grid-column-start: 21;
+  grid-column-end: 29;
+  grid-row-start: 17;
+  grid-row-end: 29;
+  border: black solid 1vh;
+}
+
+

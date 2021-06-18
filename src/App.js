@@ -56,7 +56,7 @@ function App() { //just a normal JS function
             <div className="about-me-text-content">
               <p style={{marginBottom: 1.25 + 'em'}}>3rd-year undergraduate at UVA</p>
               <p style={{marginBottom: 1.25 + 'em'}}>Pursuing degrees in Computer Science and Computer Engineering</p>
-              <p> I value enthusiasm, curiosity, persistence, and doing things the right way</p>
+              <p> I value enthusiasm, curiosity, persistence, and doing things the right way.</p>
             </div>
             <div className="about-me-github-image">
               <a href="https://github.com/zacharyyahn">
@@ -76,11 +76,21 @@ function App() { //just a normal JS function
         
         <div className="skills-wrapper">
           <div className="skills-border">
+          <div className="skills-title">
+            <h2>Technical Skills</h2>
+          </div>
+          
             <div className="skills-diagram"></div>
           </div>
         </div>
         
         <div className="projects-wrapper">
+          <div className="project-item-1"></div>
+          <div className="project-item-2"></div>
+          <div className="project-item-3"></div>
+          <div className="project-item-4"></div>
+          <div className="project-item-5"></div>
+          <div className="project-item-6"></div>
         </div>
 
         {/* <button onClick={increment}>Increment</button>
