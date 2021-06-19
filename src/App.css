@@ -6,7 +6,7 @@
 
 .app-wrapper {
   align-items: center;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
 h2 {
@@ -157,6 +157,13 @@ h2 {
   grid-column-end: 6;
 }
 
+.about-me-github-image:hover {
+  grid-row-start: 17;
+  grid-row-end: 21;
+  grid-column-start: 3;
+  grid-column-end: 7;
+}
+
 .about-me-linkedin-image {
   grid-row-start: 17;
   grid-row-end: 20;
@@ -220,6 +227,18 @@ h2 {
   background-color: white;
 }
 
+.projects-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
 .project-item-1 {
   grid-column-start: 3;
   grid-column-end: 11;
@@ -229,6 +248,14 @@ h2 {
   background: url("CampusMap2.gif");
   background-size: cover;
   background-position: 60% 50%;
+}
+
+.project-item-1:hover {
+  background:rgb(164, 104, 224);
+  text-align: center;
+  color: black;
+  font-size: 4vh;
+  justify-content: center;
 }
 
 .project-item-2 {
@@ -241,6 +268,10 @@ h2 {
   background-size: cover; 
 }
 
+.project-item-2:hover {
+  background:rgb(164, 104, 224);
+}
+
 .project-item-3 {
   grid-column-start: 21;
   grid-column-end: 29;
@@ -251,6 +282,10 @@ h2 {
   background-size: cover;
 }
 
+.project-item-3:hover {
+  background:rgb(164, 104, 224);
+}
+
 .project-item-4 {
   grid-column-start: 3;
   grid-column-end: 11;
@@ -259,6 +294,10 @@ h2 {
   border: black solid 1vh; 
   background: url("Robot.gif");
   background-size: cover;
+}
+
+.project-item-4:hover {
+  background:rgb(164, 104, 224);
 }
 
 .project-item-5 {
@@ -272,12 +311,24 @@ h2 {
   background-position: center;
 }
 
+.project-item-5:hover {
+  background:rgb(164, 104, 224);
+}
+
 .project-item-6 {
   grid-column-start: 21;
   grid-column-end: 29;
   grid-row-start: 17;
   grid-row-end: 29;
   border: black solid 1vh;
+}
+
+.project-item-6:hover {
+  background:rgb(164, 104, 224);
+}
+
+.experience-wrapper {
+  min-height: 100vh;
 }
 
 

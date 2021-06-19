@@ -85,12 +85,16 @@ function App() { //just a normal JS function
         </div>
         
         <div className="projects-wrapper">
-          <div className="project-item-1"></div>
-          <div className="project-item-2"></div>
-          <div className="project-item-3"></div>
-          <div className="project-item-4"></div>
-          <div className="project-item-5"></div>
-          <div className="project-item-6"></div>
+          <div className="project-item-1">Campus Map</div>
+          <div className="project-item-2">Deepfakes</div>
+          <div className="project-item-3">Personal EKG</div>
+          <div className="project-item-4">Line Follower</div>
+          <div className="project-item-5">NASA BIG Idea Challenge</div>
+          <div className="project-item-6">Nanodrone Swarms</div>
+        </div>
+
+        <div className="experience-wrapper">
+          
         </div>
 
         {/* <button onClick={increment}>Increment</button>
