@@ -85,12 +85,35 @@ function App() { //just a normal JS function
         </div>
         
         <div className="projects-wrapper">
-          <div className="project-item-1">Campus Map</div>
-          <div className="project-item-2">Deepfakes</div>
-          <div className="project-item-3">Personal EKG</div>
-          <div className="project-item-4">Line Follower</div>
-          <div className="project-item-5">NASA BIG Idea Challenge</div>
-          <div className="project-item-6">Nanodrone Swarms</div>
+          <div className="project-item-1">
+            <div className="overlay">
+              <div className="overlay-text">Campus Map</div>
+            </div>
+          </div>
+          <div className="project-item-2">
+            <div className="overlay">
+              <div className="overlay-text">Deepfakes</div>
+            </div>
+          </div>
+          <div className="project-item-3">
+            <div className="overlay">
+              <div className="overlay-text">Personal EKG</div>
+            </div>
+          </div>
+          <div className="project-item-4">
+            <div className="overlay">
+              <div className="overlay-text">Line Following Robot</div>
+            </div>
+          </div>
+          <div className="project-item-5">
+            <div className="overlay">
+              <div className="overlay-text">NASA BIG Idea Challenge</div>
+            </div>
+          </div>
+          <div className="project-item-6">
+            <div className="overlay">
+              <div className="overlay-text">Nanodrone Swarms</div>
+            </div></div>
         </div>
 
         <div className="experience-wrapper">

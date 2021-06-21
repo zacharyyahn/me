@@ -248,9 +248,41 @@ h2 {
   background: url("CampusMap2.gif");
   background-size: cover;
   background-position: 60% 50%;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-.project-item-1:hover {
+.overlay-text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.overlay {
+  position: relative;
+  bottom: 0;
+  top: 0;
+  right: 100%;
+  left: 0;
+  background-color: rgb(164, 104, 224);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .75s ease;
+  z-index: 1;
+}
+
+.project-item-1:hover .overlay {
+  width: 100%;
+  right: 0;
   background:rgb(164, 104, 224);
   text-align: center;
   color: black;
@@ -268,8 +300,14 @@ h2 {
   background-size: cover; 
 }
 
-.project-item-2:hover {
+.project-item-2:hover .overlay {
   background:rgb(164, 104, 224);
+  text-align: center;
+  color: black;
+  font-size: 4vh;
+  justify-content: center;
+  width: 100%;
+  left: 0;
 }
 
 .project-item-3 {
@@ -282,8 +320,14 @@ h2 {
   background-size: cover;
 }
 
-.project-item-3:hover {
+.project-item-3:hover .overlay {
   background:rgb(164, 104, 224);
+  text-align: center;
+  color: black;
+  font-size: 4vh;
+  justify-content: center;
+  width: 100%;
+  left: 0;
 }
 
 .project-item-4 {
@@ -296,8 +340,14 @@ h2 {
   background-size: cover;
 }
 
-.project-item-4:hover {
+.project-item-4:hover .overlay {
   background:rgb(164, 104, 224);
+  text-align: center;
+  color: black;
+  font-size: 4vh;
+  justify-content: center;
+  width: 100%;
+  left: 0;
 }
 
 .project-item-5 {
@@ -311,8 +361,14 @@ h2 {
   background-position: center;
 }
 
-.project-item-5:hover {
+.project-item-5:hover .overlay {
   background:rgb(164, 104, 224);
+  text-align: center;
+  color: black;
+  font-size: 4vh;
+  justify-content: center;
+  width: 100%;
+  left: 0;
 }
 
 .project-item-6 {
@@ -323,8 +379,14 @@ h2 {
   border: black solid 1vh;
 }
 
-.project-item-6:hover {
+.project-item-6:hover .overlay {
   background:rgb(164, 104, 224);
+  text-align: center;
+  color: black;
+  font-size: 4vh;
+  justify-content: center;
+  width: 100%;
+  left: 0;
 }
 
 .experience-wrapper {
