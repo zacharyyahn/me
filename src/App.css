@@ -6,11 +6,16 @@
 
 .app-wrapper {
   align-items: center;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
 }
 
 h2 {
-  color: rgb(130, 40, 220)
+  color: rgb(130, 40, 220);
+  font-size: 10;
+}
+
+h3 {
+  padding: 5px;
 }
 
 .spinner {
@@ -157,13 +162,6 @@ h2 {
   grid-column-end: 6;
 }
 
-.about-me-github-image:hover {
-  grid-row-start: 17;
-  grid-row-end: 21;
-  grid-column-start: 3;
-  grid-column-end: 7;
-}
-
 .about-me-linkedin-image {
   grid-row-start: 17;
   grid-row-end: 20;
@@ -225,6 +223,19 @@ h2 {
   grid-template-columns: repeat(30, 1fr);
   grid-template-rows: repeat(30, 1fr);
   background-color: white;
+}
+
+.projects-title {
+  grid-column-start: 11;
+  grid-column-end: 21;
+  grid-row-start: 0;
+  grid-row-end: 1;
+  text-align: center;
+  justify-content: center;
+  border: white;
+  border-bottom: black;
+  border-style: solid;
+  border-width: 3px;
 }
 
 .projects-overlay {
@@ -390,7 +401,60 @@ h2 {
 }
 
 .experience-wrapper {
-  min-height: 100vh;
+  min-height: 120vh;
+  display: grid;
+  grid-template-columns: repeat(1fr, 30);
+  grid-template-rows: repeat(1fr, 30);
 }
+
+.experience-title {
+  grid-column-start: 14;
+  grid-column-end: 19;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+  justify-content: center;
+  border: white;
+  border-bottom: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.experience-1 {
+  grid-column-start: 6;
+  grid-column-end: 28;
+  grid-row-start: 5;
+  grid-row-end: 8;
+}
+
+.experience-2 {
+  grid-column-start: 6;
+  grid-column-end: 28;
+  grid-row-start: 10;
+  grid-row-end: 13;
+}
+
+.experience-3 {
+  grid-column-start: 6;
+  grid-column-end: 28;
+  grid-row-start: 15;
+  grid-row-end: 18;
+}
+
+.experience-4 {
+  grid-column-start: 6;
+  grid-column-end: 28;
+  grid-row-start: 20;
+  grid-row-end: 23;
+}
+
+.experience-5 {
+  grid-column-start: 6;
+  grid-column-end: 28;
+  grid-row-start: 25;
+  grid-row-end: 28;
+}
+
+
 
 

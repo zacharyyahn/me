@@ -85,6 +85,9 @@ function App() { //just a normal JS function
         </div>
         
         <div className="projects-wrapper">
+          <div className="projects-title">
+              <h2>Projects</h2>
+          </div>
           <div className="project-item-1">
             <div className="overlay">
               <div className="overlay-text">Campus Map</div>
@@ -117,7 +120,47 @@ function App() { //just a normal JS function
         </div>
 
         <div className="experience-wrapper">
-          
+          <div className="experience-title">
+            <h2>Work Experience</h2>
+          </div>
+          <div className="experience-1">
+            <h2>NSF REU Engineering Research Fellow</h2>
+            <h3>Duke University Pratt School of Engineering  |  May 2021 - Present</h3>
+            <p>&#8226; One of two undergraduates selected to conduct research with the Humans and Autonomy Lab 
+              under Dr. Missy Cummings. </p>
+            <p>&#8226; Working with a partner to create a machine learning model capable of classifying injuries
+              onboard U.S. Navy Aircraft Carriers. </p>
+            <p>&#8226; Responsibilities include extensive data cleaning, programming
+              scripts in Python, and building the model. </p>
+          </div>
+          <div className="experience-2">
+            <h2>Deep Learning Research Intern</h2>
+            <h3>University of Michigan School of Information  |  May 2021 - Present</h3>
+            <p>&#8226; Part of a large research group dedicated to creating an online deep learning education platform called 1Cademy</p>
+            <p>&#8226; Responsible for weekly readings and research on various deep learning topics included optimization, regularization <br></br>
+            convolutional neural networks, and recurrent neural networks. Research is presented to the group each week.</p>
+          </div>
+          <div className="experience-3">
+            <h2>Undergraduate Research Assistant</h2>
+            <h3>Duke University Humans and Autonomy Lab | May 2021 - Present</h3>
+            <p>&#8226; Exploring computer vision research and the effects of mislabeling data in autonomous vehicle training datasets </p>
+            <p>&#8226; Responsibilities include researching datasets, experimental design, and presenting to the research group.</p>
+          </div>
+          <div className="experience-4">
+            <h2>Undergraduate Teaching Assistant</h2>
+            <h3>University of Virginia | January 2021 - Present</h3>
+            <p>&#8226; Supporting a class of over 500 students about data structures and algorithms in CS 2150: Program and Data Representation.</p>
+            <p>&#8226; Responsibilities include moderating weekly lab sessions and holding weekly office hours. Course topics include trees,<br></br>  stacks, queues, 
+            graphs, heaps, and programming in C, C++, Assembly, and Machine Code. </p>
+          </div>
+          <div className="experience-5">
+            <h2>Undergraduate Research Assistant</h2>
+            <h3>University of Virginia ShiftLab | June 2020 - Present</h3>
+            <p>&#8226; Member of a research group directed by Dr. Samira Khan focused on developing high-speed in-memory computer <br></br> architectures. Attended weekly lab meetings
+            and reading groups.</p>
+            <p>&#8226; Conducted a project working on simulating nano-drone compute usage using Unity and Bitcraze Crazyflies</p>
+            <p>&#8226; Currently working on developing sparse multi-SLAM methods for a swarm of nano-drones using ROS and C++</p>
+          </div>
         </div>
 
         {/* <button onClick={increment}>Increment</button>
