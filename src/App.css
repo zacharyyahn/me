@@ -6,16 +6,28 @@
 
 .app-wrapper {
   align-items: center;
-  grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 2fr 2fr;
 }
 
 h2 {
-  color: rgb(130, 40, 220);
+  color: rgb(12, 72, 182);
   font-size: 10;
 }
 
 h3 {
   padding: 5px;
+  font-size: 20;
+  color: rgb(12, 72, 182);
+}
+
+
+p {
+  padding: 2px;
+}
+
+.project-title-text {
+  font-size: 40;
+  color: rgb(12, 72, 182);
 }
 
 .spinner {
@@ -103,7 +115,8 @@ h3 {
 .about-me-wrapper {
   min-height: 100vh;
   display: grid;
-  background-color: white;
+  background-position: center;
+  background-color: rgba(247, 249, 251, 255);
   grid-template-columns: repeat(20, 1fr);
   grid-template-rows: repeat(10, 1fr);
   border: white;
@@ -120,21 +133,25 @@ h3 {
   background-image: url("me.jpg");
   background-position: center;
   background-size: cover;
-  border-radius: 5vh;
+  border-radius: 2vh;
   border: white;
 }
 
 .about-me-text {
   font-size: 4vh;
   grid-column-start: 3;
-  grid-column-end: 9;
+  grid-column-end: 10;
   grid-row-start: 2;
   grid-row-end: 10;
+  background-color: white;
+  border-radius: 2vh;
+  /* background-image: url("hex4.JPG"); */
   justify-content: center;
   text-align: center;
   display: grid;
   grid-template-rows: repeat(20, 1fr);
   grid-template-columns: repeat(11, 1fr);
+  filter: drop-shadow(1px 1px 1px rgb(223, 221, 221));
 }
 
 .about-me-text-title {
@@ -143,16 +160,15 @@ h3 {
   border-style: solid;
   grid-row-start: 2;
   grid-row-end: 4;
-  grid-column-start: 1;
-  grid-column-end: 12;
-
+  grid-column-start: 2;
+  grid-column-end: 11;
 }
 
 .about-me-text-content {
   grid-row-start: 5;
   grid-row-end: 18;
-  grid-column-start: 1;
-  grid-column-end: 12;
+  grid-column-start: 2;
+  grid-column-end: 11;
 }
 
 .about-me-github-image {
@@ -218,23 +234,25 @@ h3 {
 }
 
 .projects-wrapper {
-  min-height: 100vh;
+  min-height: 200vh;
   display: grid;
-  grid-template-columns: repeat(30, 1fr);
-  grid-template-rows: repeat(30, 1fr);
-  background-color: white;
+  grid-template-columns: repeat(41, 1fr);
+  grid-template-rows: repeat(37, 1fr);
+  background-color: rgba(247, 249, 251, 255);
 }
 
 .projects-title {
-  grid-column-start: 11;
-  grid-column-end: 21;
-  grid-row-start: 0;
-  grid-row-end: 1;
+  display: flex;
+  align-items: center;
+  padding-top: 1vh;
+  grid-column-start: 1;
+  grid-column-end: 42;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-color:rgb(77, 98, 182);
   text-align: center;
   justify-content: center;
   border: white;
-  border-bottom: black;
-  border-style: solid;
   border-width: 3px;
 }
 
@@ -251,17 +269,19 @@ h3 {
 }
 
 .project-item-1 {
-  grid-column-start: 3;
-  grid-column-end: 11;
-  grid-row-start: 3;
+  grid-column-start: 4;
+  grid-column-end: 21;
+  grid-row-start: 5;
   grid-row-end: 15;
-  border: black solid 1vh;
+  border: white solid 2vh;
+  border-radius: 1vh;
   background: url("CampusMap2.gif");
   background-size: cover;
   background-position: 60% 50%;
   display: block;
   width: 100%;
   height: auto;
+  filter: drop-shadow(1px 1px 1px rgb(223, 221, 221));
 }
 
 .overlay-text {
@@ -269,7 +289,20 @@ h3 {
   font-size: 20px;
   text-align: center;
   position: relative;
-  top: 50%;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.overlay-body {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  top: 40%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -283,7 +316,7 @@ h3 {
   top: 0;
   right: 100%;
   left: 0;
-  background-color: rgb(164, 104, 224);
+  background-color: white;
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -294,7 +327,7 @@ h3 {
 .project-item-1:hover .overlay {
   width: 100%;
   right: 0;
-  background:rgb(164, 104, 224);
+  background:rgba(114, 134, 212, 0.959);
   text-align: center;
   color: black;
   font-size: 4vh;
@@ -302,17 +335,19 @@ h3 {
 }
 
 .project-item-2 {
-  grid-column-start: 12;
-  grid-column-end: 20;
-  grid-row-start: 3;
+  grid-column-start: 22;
+  grid-column-end: 39;
+  grid-row-start: 5;
   grid-row-end: 15;
-  border: black solid 1vh;
   background: url("Deepfake2.gif");
   background-size: cover; 
+  border: white solid 2vh;
+  border-radius: 1vh;
+  filter: drop-shadow(1px 1px 1px rgb(223, 221, 221));
 }
 
 .project-item-2:hover .overlay {
-  background:rgb(164, 104, 224);
+  background:rgba(114, 134, 212, 0.959);
   text-align: center;
   color: black;
   font-size: 4vh;
@@ -322,17 +357,19 @@ h3 {
 }
 
 .project-item-3 {
-  grid-column-start: 21;
-  grid-column-end: 29;
-  grid-row-start: 3;
-  grid-row-end: 15;
-  border: black solid 1vh;
+  grid-column-start: 4;
+  grid-column-end: 21;
+  grid-row-start: 16;
+  grid-row-end: 26;
+  border: white solid 2vh;
+  border-radius: 1vh;
   background: url("EKG.gif");
   background-size: cover;
+  filter: drop-shadow(1px 1px 1px rgb(223, 221, 221));
 }
 
 .project-item-3:hover .overlay {
-  background:rgb(164, 104, 224);
+  background:rgba(114, 134, 212, 0.959);
   text-align: center;
   color: black;
   font-size: 4vh;
@@ -342,17 +379,19 @@ h3 {
 }
 
 .project-item-4 {
-  grid-column-start: 3;
-  grid-column-end: 11;
-  grid-row-start: 17;
-  grid-row-end: 29;
-  border: black solid 1vh; 
+  grid-column-start: 22;
+  grid-column-end: 39;
+  grid-row-start: 16;
+  grid-row-end: 26;
+  border: white solid 2vh;
+  border-radius: 1vh;
   background: url("Robot.gif");
   background-size: cover;
+  filter: drop-shadow(1px 1px 1px rgb(223, 221, 221));
 }
 
 .project-item-4:hover .overlay {
-  background:rgb(164, 104, 224);
+  background:rgba(114, 134, 212, 0.959);
   text-align: center;
   color: black;
   font-size: 4vh;
@@ -362,18 +401,20 @@ h3 {
 }
 
 .project-item-5 {
-  grid-column-start: 12;
-  grid-column-end: 20;
-  grid-row-start: 17;
-  grid-row-end: 29;
-  border: black solid 1vh;
+  grid-column-start: 4;
+  grid-column-end: 21;
+  grid-row-start: 27;
+  grid-row-end: 37;
+  border: white solid 2vh;
+  border-radius: 1vh;
   background: url("NASA.gif");
   background-size: cover;
   background-position: center;
+  filter: drop-shadow(1px 1px 1px rgb(223, 221, 221));
 }
 
 .project-item-5:hover .overlay {
-  background:rgb(164, 104, 224);
+  background:rgba(114, 134, 212, 0.959);
   text-align: center;
   color: black;
   font-size: 4vh;
@@ -383,15 +424,17 @@ h3 {
 }
 
 .project-item-6 {
-  grid-column-start: 21;
-  grid-column-end: 29;
-  grid-row-start: 17;
-  grid-row-end: 29;
-  border: black solid 1vh;
+  grid-column-start: 22;
+  grid-column-end: 39;
+  grid-row-start: 27;
+  grid-row-end: 37;
+  border: white solid 2vh;
+  border-radius: 1vh;
+  filter: drop-shadow(1px 1px 1px rgb(223, 221, 221));
 }
 
 .project-item-6:hover .overlay {
-  background:rgb(164, 104, 224);
+  background:rgba(114, 134, 212, 0.959);
   text-align: center;
   color: black;
   font-size: 4vh;
@@ -401,58 +444,107 @@ h3 {
 }
 
 .experience-wrapper {
-  min-height: 120vh;
+  min-height: 200vh;
   display: grid;
+  background-color: rgba(247, 249, 251, 255);
   grid-template-columns: repeat(1fr, 30);
   grid-template-rows: repeat(1fr, 30);
 }
 
+.title-divider {
+  padding: 5px;
+  font-size: 40;
+  color: purple;
+}
+
 .experience-title {
-  grid-column-start: 14;
-  grid-column-end: 19;
+  display: flex;
+  align-items: center;
+  padding-top: 1vh;
+  grid-column-start: 1;
+  grid-column-end: 30;
   grid-row-start: 1;
   grid-row-end: 2;
+  background-color:rgb(77, 98, 182);
   text-align: center;
   justify-content: center;
   border: white;
-  border-bottom: black;
-  border-style: solid;
   border-width: 3px;
 }
 
+
 .experience-1 {
-  grid-column-start: 6;
-  grid-column-end: 28;
-  grid-row-start: 5;
-  grid-row-end: 8;
+  display: flex;
+  align-items: center;
+  grid-column-start: 8;
+  grid-column-end: 22;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  background-color: white;
+  justify-content: center;
+  border-radius: 1vh;
+  text-align: center;
+  filter: drop-shadow(1px 1px 1px rgb(223, 221, 221));
 }
 
 .experience-2 {
-  grid-column-start: 6;
-  grid-column-end: 28;
-  grid-row-start: 10;
-  grid-row-end: 13;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column-start: 8;
+  grid-column-end: 22;
+  grid-row-start: 6;
+  grid-row-end: 8;
+  background-color: white;
+  border-radius: 1vh;
+  text-align: center;
+  filter: drop-shadow(1px 1px 1px rgb(223, 221, 221));
 }
 
 .experience-3 {
-  grid-column-start: 6;
-  grid-column-end: 28;
-  grid-row-start: 15;
-  grid-row-end: 18;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column-start: 8;
+  grid-column-end: 22;
+  grid-row-start: 9;
+  grid-row-end: 11;
+  background-color: white;
+  border-radius: 1vh;
+  text-align: center;
+  filter: drop-shadow(1px 1px 1px rgb(223, 221, 221));
 }
 
 .experience-4 {
-  grid-column-start: 6;
-  grid-column-end: 28;
-  grid-row-start: 20;
-  grid-row-end: 23;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column-start: 8;
+  grid-column-end: 22;
+  grid-row-start: 12;
+  grid-row-end: 14;
+  background-color: white;
+  border-radius: 1vh;
+  text-align: center;
+  filter: drop-shadow(1px 1px 1px rgb(223, 221, 221));
 }
 
 .experience-5 {
-  grid-column-start: 6;
-  grid-column-end: 28;
-  grid-row-start: 25;
-  grid-row-end: 28;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column-start: 8;
+  grid-column-end: 22;
+  grid-row-start: 15;
+  grid-row-end: 17;
+  background-color: white;
+  border-radius: 1vh;
+  text-align: center;
+  filter: drop-shadow(1px 1px 1px rgb(223, 221, 221));
+}
+
+.footer {
+  min-height: 10vh;
 }
 
 

@@ -86,82 +86,112 @@ function App() { //just a normal JS function
         
         <div className="projects-wrapper">
           <div className="projects-title">
-              <h2>Projects</h2>
+            <div className="title-divider">
+              <h2>
+                <font size="+6" color="white">Projects</font>
+              </h2>
+            </div>
           </div>
           <div className="project-item-1">
             <div className="overlay">
-              <div className="overlay-text">Campus Map</div>
+              <div className="overlay-text"><b>Campus Map Website</b></div>
+                <div className="overlay-body">Worked with a team of peers to create a website <br></br> for new UVA students using Django and Bootstrap.
+                </div>
             </div>
           </div>
           <div className="project-item-2">
             <div className="overlay">
-              <div className="overlay-text">Deepfakes</div>
+              <div className="overlay-text"><b>Deepfakes</b></div>
+              <div className="overlay-body">Won first place in the national iDISPLA Adversarial AI/ML <br></br> Challenge for a novel blockchain-based solution to deepfakes. <br></br>Recognized by UVA Today, Virginia Public Radio, and NBC-29. </div>
             </div>
           </div>
           <div className="project-item-3">
             <div className="overlay">
-              <div className="overlay-text">Personal EKG</div>
+              <div className="overlay-text"><b>Personal EKG</b></div>
+              <div className="overlay-body">Designed, modeled, and tested an EKG printed circuit board <br></br>
+              Practiced signal processing, filter design, and CAD.</div>
             </div>
           </div>
           <div className="project-item-4">
             <div className="overlay">
-              <div className="overlay-text">Line Following Robot</div>
+              <div className="overlay-text"><b>Line Following Robot</b></div>
+              <div className="overlay-body">Wrote embedded C code to interface with multiple sensors <br></br>
+              on an MSP432-powered robot. Practiced software concepts <br></br> like finite state machines and register level logic.</div>
             </div>
           </div>
           <div className="project-item-5">
             <div className="overlay">
-              <div className="overlay-text">NASA BIG Idea Challenge</div>
+              <div className="overlay-text"><b>NASA BIG Idea Challenge</b></div>
+              <div className="overlay-body">Submitted a $134,000 proposal to NASA for a novel <br></br> silver nanowire thin-film solution to lunar <br></br> 
+              dust buildup as UVA's team co-lead for the challenge.</div>
             </div>
           </div>
           <div className="project-item-6">
             <div className="overlay">
-              <div className="overlay-text">Nanodrone Swarms</div>
+              <div className="overlay-text"><b>Nanodrone Swarms</b></div>
+              <div className="overlay-body">Researching sparse multi-SLAM algorithms for swarms <br></br> of nano-drones as a member of the UVA ShiftLab. <br></br> 
+              Pursuing a publication in ICRA this coming Fall.</div>
             </div></div>
         </div>
 
         <div className="experience-wrapper">
           <div className="experience-title">
-            <h2>Work Experience</h2>
+            <div className="title-divider">
+              <h2>
+                <font size="+6" color="white">Work Experience</font>
+              </h2>
+            </div>
           </div>
           <div className="experience-1">
-            <h2>NSF REU Engineering Research Fellow</h2>
-            <h3>Duke University Pratt School of Engineering  |  May 2021 - Present</h3>
-            <p>&#8226; One of two undergraduates selected to conduct research with the Humans and Autonomy Lab 
-              under Dr. Missy Cummings. </p>
-            <p>&#8226; Working with a partner to create a machine learning model capable of classifying injuries
-              onboard U.S. Navy Aircraft Carriers. </p>
-            <p>&#8226; Responsibilities include extensive data cleaning, programming
-              scripts in Python, and building the model. </p>
+            <div>
+              <h2>NSF REU Engineering Research Fellow</h2>
+              <h3>Duke University Pratt School of Engineering  |  May 2021 - Present</h3>
+              <p>&#8226; One of two undergraduates selected to conduct research with the Humans and Autonomy Lab 
+                under Dr. Missy Cummings. </p>
+              <p>&#8226; Working with a partner to create a machine learning model capable of classifying injuries
+                onboard U.S. Navy Aircraft Carriers. </p>
+              <p>&#8226; Responsibilities include extensive data cleaning, programming
+                scripts in Python, and building the model. </p>
+            </div>
           </div>
           <div className="experience-2">
-            <h2>Deep Learning Research Intern</h2>
-            <h3>University of Michigan School of Information  |  May 2021 - Present</h3>
-            <p>&#8226; Part of a large research group dedicated to creating an online deep learning education platform called 1Cademy</p>
-            <p>&#8226; Responsible for weekly readings and research on various deep learning topics included optimization, regularization <br></br>
-            convolutional neural networks, and recurrent neural networks. Research is presented to the group each week.</p>
+            <div>
+              <h2>Deep Learning Research Intern</h2>
+              <h3>University of Michigan School of Information  |  May 2021 - Present</h3>
+              <p>&#8226; Part of a large research group dedicated to creating an online deep learning education platform called 1Cademy</p>
+              <p>&#8226; Responsible for weekly readings and research on various deep learning topics included optimization, regularization <br></br>
+              convolutional neural networks, and recurrent neural networks. Research is presented to the group each week.</p>
+            </div>
           </div>
           <div className="experience-3">
-            <h2>Undergraduate Research Assistant</h2>
-            <h3>Duke University Humans and Autonomy Lab | May 2021 - Present</h3>
-            <p>&#8226; Exploring computer vision research and the effects of mislabeling data in autonomous vehicle training datasets </p>
-            <p>&#8226; Responsibilities include researching datasets, experimental design, and presenting to the research group.</p>
+            <div>
+              <h2>Undergraduate Research Assistant</h2>
+              <h3>Duke University Humans and Autonomy Lab | May 2021 - Present</h3>
+              <p>&#8226; Exploring computer vision research and the effects of mislabeling data in autonomous vehicle training datasets </p>
+              <p>&#8226; Responsibilities include researching datasets, experimental design, and presenting to the research group.</p>
+            </div>
           </div>
           <div className="experience-4">
-            <h2>Undergraduate Teaching Assistant</h2>
-            <h3>University of Virginia | January 2021 - Present</h3>
-            <p>&#8226; Supporting a class of over 500 students about data structures and algorithms in CS 2150: Program and Data Representation.</p>
-            <p>&#8226; Responsibilities include moderating weekly lab sessions and holding weekly office hours. Course topics include trees,<br></br>  stacks, queues, 
-            graphs, heaps, and programming in C, C++, Assembly, and Machine Code. </p>
+            <div>
+              <h2>Undergraduate Teaching Assistant</h2>
+              <h3>University of Virginia | January 2021 - Present</h3>
+              <p>&#8226; Supporting a class of over 500 students about data structures and algorithms in CS 2150: Program and Data Representation.</p>
+              <p>&#8226; Responsibilities include moderating weekly lab sessions and holding weekly office hours. Course topics include trees,<br></br>  stacks, queues, 
+              graphs, heaps, and programming in C, C++, Assembly, and Machine Code. </p>
+            </div>
           </div>
           <div className="experience-5">
-            <h2>Undergraduate Research Assistant</h2>
-            <h3>University of Virginia ShiftLab | June 2020 - Present</h3>
-            <p>&#8226; Member of a research group directed by Dr. Samira Khan focused on developing high-speed in-memory computer <br></br> architectures. Attended weekly lab meetings
-            and reading groups.</p>
-            <p>&#8226; Conducted a project working on simulating nano-drone compute usage using Unity and Bitcraze Crazyflies</p>
-            <p>&#8226; Currently working on developing sparse multi-SLAM methods for a swarm of nano-drones using ROS and C++</p>
+            <div>
+              <h2>Undergraduate Research Assistant</h2>
+              <h3>University of Virginia ShiftLab | June 2020 - Present</h3>
+              <p>&#8226; Member of a research group directed by Dr. Samira Khan focused on developing high-speed in-memory computer <br></br> architectures. Attended weekly lab meetings
+              and reading groups.</p>
+              <p>&#8226; Conducted a project working on simulating nano-drone compute usage using Unity and Bitcraze Crazyflies</p>
+              <p>&#8226; Currently working on developing sparse multi-SLAM methods for a swarm of nano-drones using ROS and C++</p>
+            </div>
           </div>
         </div>
+        <div className="footer"></div>
 
         {/* <button onClick={increment}>Increment</button>
         <h1>{count}</h1>
