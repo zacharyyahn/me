@@ -430,6 +430,8 @@ p {
   grid-row-end: 37;
   border: white solid 2vh;
   border-radius: 1vh;
+  background: url("drone.gif");
+  background-size: cover;
   filter: drop-shadow(1px 1px 1px rgb(223, 221, 221));
 }
 
