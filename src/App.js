@@ -33,6 +33,13 @@ function App() { //just a normal JS function
         </div>
         :
       <div className="app-wrapper">
+        {/* Fonts */}
+        <link href="http://fonts.cdnfonts.com/css/hallo-sans" rel="stylesheet"></link>
+        <link href="http://fonts.cdnfonts.com/css/comic-zine" rel="stylesheet"></link>
+        <link href="http://fonts.cdnfonts.com/css/kitchen-police" rel="stylesheet"></link>
+        <link href="http://fonts.cdnfonts.com/css/major-mono-display-2" rel="stylesheet"></link>
+        <link href="http://fonts.cdnfonts.com/css/hand-of-sean" rel="stylesheet"></link>
+        <link href="http://fonts.cdnfonts.com/css/sue-ellen-francis" rel="stylesheet"></link>
           
         <div className="statement-wrapper">
 
@@ -59,12 +66,12 @@ function App() { //just a normal JS function
               <p> I value enthusiasm, curiosity, persistence, and doing things the right way.</p>
             </div>
             <div className="about-me-github-image">
-              <a href="https://github.com/zacharyyahn">
+              <a href="https://github.com/zacharyyahn" target="_blank" rel="noreferrer">
                 <img src={github} width={60} height={60}></img>
               </a>
             </div>
           <div className="about-me-linkedin-image">
-            <a href="https://www.linkedin.com/in/zachary-yahn-87a431199/">
+            <a href="https://www.linkedin.com/in/zachary-yahn-87a431199/" target="_blank" rel="noreferrer">
               <img src={linkedin} width={60} height={60}></img>
             </a>
           </div>
@@ -88,7 +95,7 @@ function App() { //just a normal JS function
           <div className="projects-title">
             <div className="title-divider">
               <h2>
-                <font size="+6" color="white">Projects</font>
+                <font size="+6" color="white">projects</font>
               </h2>
             </div>
           </div>
@@ -96,6 +103,7 @@ function App() { //just a normal JS function
             <div className="overlay">
               <div className="overlay-text"><b>Campus Map Website</b></div>
                 <div className="overlay-body">Worked with a team of peers to create a website <br></br> for new UVA students using Django and Bootstrap.
+                <br></br>Visit it <a href="https://campusmapa-02.herokuapp.com/" target="_blank" rel="noreferrer">here.</a> (Loading may take a moment)
                 </div>
             </div>
           </div>
@@ -138,7 +146,7 @@ function App() { //just a normal JS function
           <div className="experience-title">
             <div className="title-divider">
               <h2>
-                <font size="+6" color="white">Work Experience</font>
+                <font size="+6" color="white">work experience</font>
               </h2>
             </div>
           </div>
@@ -191,7 +199,11 @@ function App() { //just a normal JS function
             </div>
           </div>
         </div>
-        <div className="footer"></div>
+        <div className="footer">
+          <div className="footer-text">
+            This website was created by Zachary Yahn, 2021. <br></br> Contact Me: zry2yz@virginia.edu
+            </div>
+        </div>
 
         {/* <button onClick={increment}>Increment</button>
         <h1>{count}</h1>

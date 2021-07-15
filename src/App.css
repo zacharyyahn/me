@@ -20,6 +20,10 @@ h3 {
   color: rgb(12, 72, 182);
 }
 
+a {
+  color: white;
+}
+
 
 p {
   padding: 2px;
@@ -252,6 +256,7 @@ p {
 
 .projects-title {
   display: flex;
+  font-family:'Major Mono Display', sans-serif;
   align-items: center;
   padding-top: 1vh;
   grid-column-start: 1;
@@ -471,6 +476,7 @@ p {
 .experience-title {
   display: flex;
   align-items: center;
+  font-family:'Major Mono Display', sans-serif;
   padding-top: 1vh;
   grid-column-start: 1;
   grid-column-end: 30;
@@ -555,7 +561,12 @@ p {
 }
 
 .footer {
-  min-height: 10vh;
+  color: gray;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 15vh;
 }
 
 
