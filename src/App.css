@@ -165,7 +165,7 @@ p {
 }
 
 .about-me-text-content {
-  grid-row-start: 5;
+  grid-row-start: 4;
   grid-row-end: 18;
   grid-column-start: 2;
   grid-column-end: 11;
@@ -178,6 +178,10 @@ p {
   grid-column-end: 6;
 }
 
+.about-me-github-image:hover {
+  filter: drop-shadow(2px 2px 2px rgb(77, 98, 182));
+}
+
 .about-me-linkedin-image {
   grid-row-start: 17;
   grid-row-end: 20;
@@ -185,11 +189,16 @@ p {
   grid-column-end: 10;
 }
 
+.about-me-linkedin-image:hover {
+  filter: drop-shadow(2px 2px 2px rgb(77, 98, 182));
+}
+
 .skills-wrapper {
   min-height: 100vh;
   display: grid;
   grid-template-columns: repeat(30, 1fr);
   grid-template-rows: repeat(30, 1fr);
+  /* background-color: rgba(247, 249, 251, 255) */
   /* border: white;
   border-bottom: black;
   border-style: solid; */

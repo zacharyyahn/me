@@ -28,8 +28,8 @@ function App() { //just a normal JS function
     <div className="app">
       {
         loading ?
-        <div className="spinner">
-        <PropagateLoader color={"#7F2BB9"} loading={loading} size={15} />
+        <div className="spinner"> 
+        <PropagateLoader color={"#4D62B6"} loading={loading} size={15} />
         </div>
         :
       <div className="app-wrapper">
@@ -54,7 +54,7 @@ function App() { //just a normal JS function
             <h2> About Me </h2>
             </div>
             <div className="about-me-text-content">
-              <p style={{marginBottom: 1.25 + 'em'}}>3rd-year undergraduate at UVA</p>
+              <p style={{marginBottom: 1.25 + 'em'}}>3rd-year undergraduate at the <br></br>University of Virginia.</p>
               <p style={{marginBottom: 1.25 + 'em'}}>Pursuing degrees in Computer Science and Computer Engineering</p>
               <p> I value enthusiasm, curiosity, persistence, and doing things the right way.</p>
             </div>
@@ -101,14 +101,14 @@ function App() { //just a normal JS function
           </div>
           <div className="project-item-2">
             <div className="overlay">
-              <div className="overlay-text"><b>Deepfakes</b></div>
+              <div className="overlay-text"><b>Combating Deepfakes</b></div>
               <div className="overlay-body">Won first place in the national iDISPLA Adversarial AI/ML <br></br> Challenge for a novel blockchain-based solution to deepfakes. <br></br>Recognized by UVA Today, Virginia Public Radio, and NBC-29. </div>
             </div>
           </div>
           <div className="project-item-3">
             <div className="overlay">
               <div className="overlay-text"><b>Personal EKG</b></div>
-              <div className="overlay-body">Designed, modeled, and tested an EKG printed circuit board <br></br>
+              <div className="overlay-body">Designed, modeled, and tested an EKG printed circuit board. <br></br>
               Practiced signal processing, filter design, and CAD.</div>
             </div>
           </div>
@@ -167,7 +167,7 @@ function App() { //just a normal JS function
             <div>
               <h2>Undergraduate Research Assistant</h2>
               <h3>Duke University Humans and Autonomy Lab | May 2021 - Present</h3>
-              <p>&#8226; Exploring computer vision research and the effects of mislabeling data in autonomous vehicle training datasets </p>
+              <p>&#8226; Exploring computer vision research and the effects of mislabeling data in autonomous vehicle training datasets.</p>
               <p>&#8226; Responsibilities include researching datasets, experimental design, and presenting to the research group.</p>
             </div>
           </div>
@@ -186,8 +186,8 @@ function App() { //just a normal JS function
               <h3>University of Virginia ShiftLab | June 2020 - Present</h3>
               <p>&#8226; Member of a research group directed by Dr. Samira Khan focused on developing high-speed in-memory computer <br></br> architectures. Attended weekly lab meetings
               and reading groups.</p>
-              <p>&#8226; Conducted a project working on simulating nano-drone compute usage using Unity and Bitcraze Crazyflies</p>
-              <p>&#8226; Currently working on developing sparse multi-SLAM methods for a swarm of nano-drones using ROS and C++</p>
+              <p>&#8226; Conducted a project working on simulating nano-drone compute usage using Unity and Bitcraze Crazyflies.</p>
+              <p>&#8226; Currently working on developing sparse multi-SLAM methods for a swarm of nano-drones using ROS and C++.</p>
             </div>
           </div>
         </div>
