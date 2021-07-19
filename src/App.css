@@ -29,6 +29,13 @@ p {
   padding: 2px;
 }
 
+@font-face {
+  font-family: 'Sue Ellen Francisco';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sue Ellen Francisco'), url('https://fonts.cdnfonts.com/s/9364/Sue Ellen Francisco.woff') format('woff');
+}
+
 .project-title-text {
   font-size: 40;
   color: rgb(12, 72, 182);

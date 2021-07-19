@@ -39,7 +39,6 @@ function App() { //just a normal JS function
         <link href="http://fonts.cdnfonts.com/css/kitchen-police" rel="stylesheet"></link>
         <link href="http://fonts.cdnfonts.com/css/major-mono-display-2" rel="stylesheet"></link>
         <link href="http://fonts.cdnfonts.com/css/hand-of-sean" rel="stylesheet"></link>
-        <link href="http://fonts.cdnfonts.com/css/sue-ellen-francis" rel="stylesheet"></link>
           
         <div className="statement-wrapper">
 
