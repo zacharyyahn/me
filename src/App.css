@@ -33,12 +33,13 @@ p {
   font-family: 'Sue Ellen Francisco';
   font-style: normal;
   font-weight: 400;
-  src: url('../src/fonts/SueEllenFrancisco.woff') format('woff');
+  src: url('fonts/SueEllenFrancisco.woff') format('woff');
 }
 
 .project-title-text {
   font-size: 40;
-  color: rgb(12, 72, 182);
+  /* color: rgb(12, 72, 182); */
+  color: purple;
 }
 
 .spinner {
