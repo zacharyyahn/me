@@ -33,7 +33,7 @@ p {
   font-family: 'Sue Ellen Francisco';
   font-style: normal;
   font-weight: 400;
-  src: local('Sue Ellen Francisco'), url('https://fonts.cdnfonts.com/s/9364/Sue Ellen Francisco.woff') format('woff');
+  src: url('../src/fonts/SueEllenFrancisco.woff') format('woff');
 }
 
 .project-title-text {
