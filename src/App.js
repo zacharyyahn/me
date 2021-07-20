@@ -79,14 +79,25 @@ function App() { //just a normal JS function
 
       
         </div>
-        
-        <div className="skills-wrapper">
-          <div className="skills-border">
-          <div className="skills-title">
-            <h2>Technical Skills</h2>
+        <div className="my-skills-title">
+            <div className="title-divider">
+              <h2>
+                <font size="+6" color="white"></font>
+              </h2>
+            </div>
           </div>
-          
-            <div className="skills-diagram"></div>
+
+        <div className="skills-wrapper">
+          <div className="soft-skills">
+            <p>
+            Teamwork <br></br>
+            Technical Writing <br></br>
+            Self Supervision <br></br>
+            Communication <br></br>
+            Problem Solving <br></br>
+            </p>
+          </div>
+          <div className="skills-diagram">
           </div>
         </div>
         <div className="projects-title">
@@ -146,7 +157,7 @@ function App() { //just a normal JS function
               </h2>
             </div>
           </div>
-          
+
         <div className="experience-wrapper">
           <div className="experience-1">
             <div>

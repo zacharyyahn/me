@@ -205,53 +205,62 @@ p {
   filter: drop-shadow(2px 2px 2px rgb(77, 98, 182));
 }
 
+.my-skills-title {
+  display: flex;
+  font-family:'Major Mono Display', sans-serif;
+  align-items: center;
+  /* background-color:rgb(77, 98, 182); */
+  background-color: rgb(77, 98, 182);
+  background-image: url("my_skills_header.JPG");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+  border: white;
+  border-width: 3px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  min-height: 15vh;
+}
+
 .skills-wrapper {
   min-height: 100vh;
   display: grid;
   grid-template-columns: repeat(30, 1fr);
   grid-template-rows: repeat(30, 1fr);
-  /* background-color: rgba(247, 249, 251, 255) */
+  background-color: rgba(247, 249, 251, 255);
   /* border: white;
   border-bottom: black;
   border-style: solid; */
-}
-
-.skills-border {
-  grid-column-start: 2;
-  grid-column-end: 30;
-  grid-row-start: 1;
-  grid-row-end: 30;
-  display: grid;
-  grid-template-columns: repeat(20, 1fr);
-  grid-template-rows: repeat(20, 1fr);
-  border: black;
-  border-style: solid;
-  border-radius: 10px;
-  border-width: 1vh;
 }
 
 .skills-diagram {
   background-image: url("Complete Programming Languages.png");
   background-size: cover;
   background-position: center;
-  grid-column-start: 7;
-  grid-column-end: 19;
-  grid-row-start: 1;
-  grid-row-end: 21;
-  font-size: 4vh;
+  grid-column-start: 14;
+  grid-column-end: 29;
+  grid-row-start: 2;
+  grid-row-end: 29;
+  border: white solid 2vh;
+  border-radius: 1vh;
+  filter: drop-shadow(1px 1px 1px rgb(223, 221, 221));
 }
 
-.skills-title {
-  font-size: 5vh;
-  grid-column-start: 2;
-  grid-column-end: 6;
-  grid-row-start: 9;
-  grid-row-end: 13;
-  border: white;
-  border-bottom: black;
-  border-style: solid;
-  text-align: center;
+.soft-skills {
+  display: flex;
+  grid-column-start: 3;
+  grid-column-end: 12;
+  grid-row-start: 2;
+  grid-row-end: 29;
+  align-items: center;
   justify-content: center;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border: white solid 2vh;
+  border-radius: 1vh;
+  filter: drop-shadow(1px 1px 1px rgb(223, 221, 221));
 }
 
 .projects-wrapper {
