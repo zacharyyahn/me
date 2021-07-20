@@ -89,15 +89,14 @@ function App() { //just a normal JS function
             <div className="skills-diagram"></div>
           </div>
         </div>
-        
-        <div className="projects-wrapper">
-          <div className="projects-title">
+        <div className="projects-title">
             <div className="title-divider">
               <h2>
-                <font size="+6" color="white">projects</font>
+                <font size="+6" color="white"></font>
               </h2>
             </div>
           </div>
+        <div className="projects-wrapper">
           <div className="project-item-1">
             <div className="overlay">
               <div className="overlay-text"><b>Campus Map Website</b></div>
@@ -140,15 +139,15 @@ function App() { //just a normal JS function
               Pursuing a publication in ICRA this coming Fall.</div>
             </div></div>
         </div>
-
-        <div className="experience-wrapper">
-          <div className="experience-title">
+        <div className="experience-title">
             <div className="title-divider">
               <h2>
-                <font size="+6" color="white">work experience</font>
+                <font size="+6" color="white"></font>
               </h2>
             </div>
           </div>
+          
+        <div className="experience-wrapper">
           <div className="experience-1">
             <div>
               <h2>NSF REU Engineering Research Fellow</h2>
