@@ -60,9 +60,9 @@ function App() { //just a normal JS function
             <h2> About Me </h2>
             </div>
             <div className="about-me-text-content">
-              <p style={{marginBottom: 1.25 + 'em'}}>3rd-year undergraduate at the <br></br>University of Virginia.</p>
-              <p style={{marginBottom: 1.25 + 'em'}}>Pursuing degrees in Computer Science and Computer Engineering</p>
-              <p> I value enthusiasm, curiosity, persistence, and doing things the right way.</p>
+              <p style={{marginBottom: 1.25 + 'em'}}>4th-year undergraduate at the <br></br>University of Virginia.</p>
+              <p style={{marginBottom: 1.25 + 'em'}}>Pursuing degrees in Computer Science and Computer Engineering.</p>
+              <p> Currently applying to AI/ML PhD programs. </p>
             </div>
             <div className="about-me-github-image">
               <a href="https://github.com/zacharyyahn" target="_blank" rel="noreferrer">
